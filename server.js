@@ -17,6 +17,7 @@ server.setup(function(runningApp) {
   //---- See: http://vimeo.com/56166857
 
   runningApp.use('/hello', require('hello')); // attach to sub-route
+  runningApp.use('/tasks', require('tasks'));
   runningApp.use(require('routes')); // attach to root route
   
   // If you need websockets:
