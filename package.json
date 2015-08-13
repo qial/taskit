@@ -23,6 +23,7 @@
     , "config"                   : "*"
     , "underscore"               : "^1.7.0"
     , "metalogger"               : "*"
+    , "mysql"                    : "*"
   }
   , "devDependencies" : {
       "after": "^0.8.1"
