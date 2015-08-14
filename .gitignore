@@ -10,3 +10,6 @@ logs
 public/bower_components
 config/runtime.json
 config/local.*
+
+# MySQL Workbench Model Backups
+*.mwb.bak
